@@ -1,0 +1,310 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #fffff4;
+    background-image: url('bg3.png');
+}
+
+.bold{
+    font-family:'Unbounded',cursive;
+
+}
+h1{
+    font-size: 32px;
+    font-family: 'Unbounded', cursive;
+    /* text-transform: capitalize; */
+    color:#57110cd0;
+    text-align: center;
+}
+
+h2{
+    font-size:19.65px;
+    font-family: 'Unbounded', cursive;
+    text-transform: capitalize;
+    color:#172121;
+}
+
+h3{
+    font-size:12.07px;
+    font-family: 'Unbounded', cursive;
+    text-transform: capitalize;
+    color:#172121;
+}
+
+h4{
+    font-family: 'Unbounded', cursive;
+    text-transform: capitalize;
+    color:#172121;
+}
+
+p{
+    font-size: 18px;
+    color: #172121;
+    line-height: 30px;
+}
+
+.login{
+    width: 99%;
+}
+
+.form-group
+{
+    margin-bottom: 10px;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+}
+
+input[type="text"].form-control{
+    font-size:16px;
+    font-family: Quicksand;
+    border:2px solid #ccc;
+    outline:none;
+    width: calc(100%-36px);
+    padding: 16px;
+    border-radius: 5px;
+    }
+input[type="password"].form-control{
+    font-size:16px;
+    font-family: Quicksand;
+    border:2px solid #ccc;
+    outline:none;
+    width: calc(100%-36px);
+    padding: 16px;
+    border-radius: 5px;
+    }
+    
+
+.login-box
+{
+background: rgba(255, 255, 255, 0);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position:relative;
+/* width: 400px;
+height:150px; */
+font-family: Quicksand;
+font-size: 14px;
+border-radius: 5px;
+}
+
+.button{
+    background-color: #fffff4;
+    color: #172121;
+    padding: 6px 6px;
+    margin: 4px;
+    text-align:center;
+    text-transform:capitalize;
+    display:inline-block;
+    /* border-radius: 3px; */
+    border: 2px solid rgb(195, 129, 129);
+    font-size: 24px;
+    font-family: Quicksand;
+    transition: width 0.4s height 0.4s font-size 0.4s;
+}
+
+.button:hover{
+    background-color:rgb(195, 129, 129);
+    transition: background-color 0.4s;
+    color:white;
+    /* font-size: 15px; */
+    /* padding: 18px 36px; */
+}
+
+.button2{
+    background-color: white;
+    color:#172121;
+    padding: 20px 48px;
+    text-align: center;
+    text-transform:capitalize;
+    display: inline-block;
+    border-radius: 5px;
+    border:1.5px solid #57110c;
+    font-size: 20px;
+    font-family: Quicksand;
+    transition: width 0.4s height 0.4s font-size 0.4s;
+}
+
+.button2:hover{
+    background-color: #57110c;
+    transition: background-color 0.3s;
+    color:white;
+    width: 110%;
+    height: 110%;
+}
+
+.page{
+    display: flex; 
+    justify-content: center;
+
+}
+
+.container
+{
+    margin-top: 175px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Quicksand;
+    height:100%;
+    width: 100%;
+}
+
+.navigator{
+    display:inline-block;
+    /* height: 50px; */
+    justify-content: center;
+    /* position: absolute; */
+    /* top: 0px; */
+    /* left: 0; */
+    /* right: 0; */
+    background-color: #e3bd9c;
+}
+
+.navigator a{
+    color:#172121;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border-radius: 0;
+    font-family:'Quicksand',sans-serif;
+}
+
+.navigator a:hover{
+    background-color:lightcoral;
+    color:white;
+}
+
+.navigatoropp{
+    display: inline-block;
+    width: 122.86px;
+    justify-content: center;
+    position: absolute;
+    top: 4px;
+    /* left: 0; */
+    right: 4px;
+    background-color: #e3bd9c;
+}
+
+.navigatoropp a{
+    color:#172121;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    border-radius: 0;
+    font-family:'Quicksand',sans-serif;
+}
+
+.navigatoropp a:hover{
+    background-color:lightcoral;
+    color:white;
+}
+
+textarea.content{
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width: 900px;
+    height: 400px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-family: Quicksand;
+    font-size: 16px;
+    resize: none;
+}
+
+textarea.title{
+    display:block;
+    /* margin-left:auto; */
+    /* margin-right:auto; */
+    width: 750px;
+    height: 55px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-family: Unbounded;
+    font-size: 20px;
+    resize: none;
+}
+
+.tags{
+    border: 1px solid #172121;
+    border-radius: 5%;
+    background-color:#fffff4 ;
+    font-size: 18px;
+    font-family:Quicksand;
+    padding: 3px;
+}
+
+fieldset{
+    display:block;
+    background-color: rgba(255,255,250,1);
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    color:black;
+}
+
+.button3{
+    /* margin-left:30px; */
+    background-color: #fffff4;
+    color: #172121;
+    padding: 6px 6px;
+    text-align:center;
+    text-transform:capitalize;
+    display:inline-block;
+    /* border-radius: 3px; */
+    border: 2px solid rgb(195, 129, 129);
+    font-size: 24px;
+    font-family: Quicksand;
+    transition: width 0.4s height 0.4s font-size 0.4s;
+}
+
+.button3:hover{
+    background-color:rgb(195, 129, 129);
+    transition: background-color 0.4s;
+    color:white;
+    /* font-size: 15px; */
+    /* padding: 18px 36px; */
+}
+
+.button4{
+    margin-left:40px;
+    background-color: #fffff4;
+    color: #172121;
+    padding: 12px 24px;
+    text-align:center;
+    text-transform:capitalize;
+    display:inline-block;
+    /* border-radius: 3px; */
+    border: 2px solid rgb(195, 129, 129);
+    font-size: 24px;
+    font-family: Quicksand;
+    transition: width 0.4s height 0.4s font-size 0.4s;
+}
+
+.button4:hover{
+    background-color:rgb(195, 129, 129);
+    transition: background-color 0.4s;
+    color:white;
+    font-size: 24px;
+    /* padding: 18px 36px; */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.example::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+.example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
